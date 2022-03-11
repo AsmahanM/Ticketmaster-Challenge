@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="style.css">
     <title>Ticketmaster Challenge</title>
 </head>
@@ -12,16 +12,39 @@
 
 <div class="form-container">
 
-    <div class="form-heading"></div>
+    <div class="form-heading">
+        <h1>Join Waiting List</h1>
+    </div>
     
-    <div class="form-img"></div>
+    <div class="form-img">How should we contact you?</div>
 
     <div class="input-container">
-        <div class="form-mobile-input"></div>
-        <div class="form-email-input"></div>
+      
+        <div class="form-mobile-input">
+            <div class="mobile-label">
+            <label for="mobile">Mobile Number</label>
+            <p>Please include country code</p>
+            <input type="text, checkbox" name="mobile" id="user-mobile">
+             </div>
+
+             <div class="mobile-checkbox">
+                 <input type="checkbox">
+             </div>
+        </div>
+
+        <div class="form-email-input">
+            <div class="email-label">
+            <label for="email">Email</label>
+            <input type="text" name="mobile" id="user-email">
+            </div>
+
+            <div class="email-checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
     </div>
 
-    <div class="form-submit-btn"></div>
+    <div class="form-submit-btn">Confirm</div>
 
 </div>
 
