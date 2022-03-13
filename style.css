@@ -3,6 +3,8 @@
     --black-pearl: #1F262D; /* Primary brand colour. */
     --cool-diatomite: #E3ECF1; /* For texture/depth. */
     --onxy: #262626;	 /* For text depth */
+    --quartz: #F6F6F6; /* Input fields background. */
+    --slate: #999999; /* input fields border. */
 }
 
 body {
@@ -21,11 +23,13 @@ body {
     vertical-align: middle;
     justify-content: center;
     min-width: 450px;
+    max-width: 500px;
+    margin: auto;
 }
 
 .form-heading {
     font-weight: 700em;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
@@ -56,6 +60,7 @@ body {
     border-radius: 0.3em;
     /* width: max-content; */
     width: 450px;
+    padding-top: 5%;
 }
 
 .country-code {
@@ -64,6 +69,7 @@ body {
     opacity: 65%;
     margin-left: 7%;
     margin-top: 1%;
+    font-weight: 500;
 }
 
 
@@ -93,9 +99,9 @@ color: white;
 background-color: var(--azure);
 border-radius: 0.1em;
 border-color: var(--azure);
-padding: 15px;
+padding: 10px;
 width: auto;
-width: 450px;
+width: 96%;
 border-style: none;
 margin-top: 10px;
 }
@@ -112,4 +118,15 @@ margin-top: 10px;
     margin-bottom: 10%;
     width: 90%;
     margin-left: 7%;
+    background-color: 	#F6F6F6;
+    border-color: #999999;
+    border-width: 1.5px;
+    border-radius: 0.1em;
+    height: 2.5em;
+    border-style: solid;
+}
+
+input {
+    color: var(--black-pearl);
+    opacity: 100%;
 }
