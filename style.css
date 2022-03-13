@@ -85,7 +85,7 @@ body {
     font-weight: 800;
     margin-left: 8.5%;
     margin-top: 1%;
-    height: 2.5em;
+    margin-bottom: 2%;
 }
 
 .form-submit-btn {
@@ -114,7 +114,7 @@ margin-top: 10px;
 }
 
 .mobile-input {
-    margin-bottom: 10%;
+    margin-bottom: 3%;
     width: 90%;
     margin-left: 8.5%;
     background-color: var(--quartz);
