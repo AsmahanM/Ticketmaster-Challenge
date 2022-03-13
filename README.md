@@ -19,7 +19,7 @@ To maintain Ticketmaster's brand identity, I incorporated the [brand colours](ht
 I used the design of the form that was provided as a reference and attempted to recreate it as much as possible. 
 > The reference phtoto is on the left, my attempt at recreating the form is on the right.
 
-![Screen Shot 2022-03-13 at 20 23 24](https://user-images.githubusercontent.com/82019270/158077960-93188c62-93ce-4d10-84f5-654627866821.png width="200")
+<img src="https://user-images.githubusercontent.com/82019270/158077960-93188c62-93ce-4d10-84f5-654627866821.png" width="200">
 
 
 ## Challenges:
