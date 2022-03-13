@@ -32,11 +32,11 @@
                 <input type="checkbox" name="mobile" id="user-mobile" class="checkbox">
                 <label for="mobile" class="mobile-label">Mobile Number</label>
                 <p class="country-code">Please include country code</p>
-                <input type="number" class="mobile-input">
+                <input type="text" onkeypress="return(event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57) || (event.charCode == 43))" class="mobile-input"> <!-- /*Only numbers and the '+' key can be entered as input.*/ -->
              </div>
         </div>
         <hr>
-        <br>
+        
         <div class="form-email-input">
             <div class="email-label">
                 <input type="checkbox" class="checkbox">
@@ -50,7 +50,6 @@
 
     <div class="form-submit-btn"></div>
     <button class="confirm-btn">Confirm</button>
-
 
 </div>
 

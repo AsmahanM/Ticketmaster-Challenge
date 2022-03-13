@@ -54,14 +54,13 @@ body {
     width: 20%;
     margin-bottom: 0%;
     margin-left: 40%;
-    margin-top: 0%;
 }
 
 
 .input-container {
     padding: 3%;
     /* box-shadow: 0px 0px 2px 2px; */
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     box-shadow: #E3ECF1; 
     border-radius: 0.3em;
     /* width: max-content; */
@@ -80,7 +79,9 @@ body {
     font-weight: 500;
 }
 
-
+.email-label {
+    padding-top: 5%;
+}
 
 .email-input {
     margin-bottom: 3%;
@@ -128,15 +129,18 @@ width: auto;
 width: 96%;
 border-style: none;
 margin-top: 5px;
+cursor:pointer;
 }
 
 .checkbox {
     transform: scale(2.25);
     margin-right: 2.5%;
     margin-left: 1.5%;
-    border-style: none;
-    border-width: -5em;
+    outline-color: red;
     position: relative;
+    border: 0.1px;
+    cursor: pointer;    
+    outline: 0.5px;
 }
 
 .mobile-input {
