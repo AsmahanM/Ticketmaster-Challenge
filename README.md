@@ -17,6 +17,8 @@ I have chosen to focus on building the form that users will fill in once they ha
 ## Styling:
 To maintain Ticketmaster's brand identity, I incorporated the [brand colours](https://design.ticketmaster.com/brand/color/). I used variable codes in the CSS to maintain uniformity.
 I used the design of the form that was provided as a reference and attempted to recreate it as much as possible. 
+> The reference phtoto is on the left, my attempt at recreating the form is on the right.
+![Screen Shot 2022-03-13 at 20 23 24](https://user-images.githubusercontent.com/82019270/158077960-93188c62-93ce-4d10-84f5-654627866821.png)
 
 
 ## Challenges:
