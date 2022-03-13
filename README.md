@@ -1,4 +1,4 @@
 # Ticketmaster Take Home Challenge
 
 ## Styling
-- [ ] Use Ticketmaster's [brand colours](https://design.ticketmaster.com/brand/color/).
+- [ ] incorporate Ticketmaster's [brand colours](https://design.ticketmaster.com/brand/color/) to maintain the brand identity.
