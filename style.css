@@ -1,7 +1,14 @@
+:root {
+    --azure: #026CDF; /* Primary brand colour. */
+    --black-pearl: #1F262D; /* Primary brand colour. */
+    --cool-diatomite: #E3ECF1; /* For texture/depth. */
+    --onxy: #262626;	 /* For text depth */
+}
+
 body {
     font-family: 'Manrope', sans-serif; 
     word-spacing: 0.2em;
-
+    color: var(--black-pearl);
     background-color: white;
     
 }
@@ -45,10 +52,31 @@ body {
     padding: 3%;
     /* box-shadow: 0px 0px 2px 2px; */
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    box-shadow: #edf0ee;
+    box-shadow: #E3ECF1; 
     border-radius: 0.3em;
     /* width: max-content; */
     width: 450px;
+}
+
+.country-code {
+    font-size: 12px;
+    color: var(--onxy);
+    opacity: 65%;
+}
+
+.placeholder-text {
+    color: var(--black-pearl);
+}
+
+.email-placeholder {
+    color: var(--onxy);
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    font-weight: 900;
+}
+
+.checkbox {
+    size: ;
 }
 
 .form-submit-btn {
@@ -57,9 +85,9 @@ body {
 
 .confirm-btn {
 color: white;
-background-color: #026CDF;
+background-color: var(--azure);
 border-radius: 0.1em;
-border-color: #026CDF;
+border-color: var(--azure);
 padding: 15px;
 width: auto;
 width: 450px;
