@@ -162,3 +162,34 @@ hr {
     background-color: var(--onxy);
     border-radius: 0.1px;
 }
+
+/* .gradient-btn {
+    margin-bottom: 3%;
+    margin-top: 15%;
+    width: 480px;
+    margin-left: 8.5%;
+    background-color: var(--quartz);
+    border-color: var(--slate);
+    border-width: 1.5px;
+    border-radius: 0.1em;
+    height: 2.5em;
+    border-style: solid;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Manrope', sans-serif; 
+    font-weight: 500;
+    word-spacing: 0.2em;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    color: var(--black-pearl);
+    transition: 0.1s;
+}
+
+.gradient-btn:hover {
+    background-color: #20C4C7;
+    color: white;
+}
+
+.gradient-btn input {
+    color: white;
+} */
