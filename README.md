@@ -23,3 +23,7 @@ I couldn't find access to Ticketmaster's [brand typeface](https://design.ticketm
 Secondly, as I'd increased the size of the checkboxes, this also increased the size of their borders and I couldn't find a way to manipulate their width/boldness.
 ## Potential design improvements:
 Ticketmaster has a great colour palette and I really like the shades of blue that contribute to the brand's identity. The current form is very clean- I think incorporating a little more colour could be a fun way to make use of the brand's colours. This could be done by adding some gradient to the buttons. 
+<img src="https://user-images.githubusercontent.com/82019270/158079954-4c03b9f7-8980-4fe9-b10b-c3335128cc86.png" size="200">
+<img src="https://user-images.githubusercontent.com/82019270/158079956-162248a3-1fee-41bb-9df7-a5bfa28fae1f.png" size="200">
+
+
