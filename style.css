@@ -85,6 +85,7 @@ body {
     font-weight: 800;
     margin-left: 8.5%;
     margin-top: 1%;
+    height: 2.5em;
 }
 
 .form-submit-btn {
@@ -116,15 +117,30 @@ margin-top: 10px;
     margin-bottom: 10%;
     width: 90%;
     margin-left: 8.5%;
-    background-color: 	#F6F6F6;
-    border-color: #999999;
+    background-color: var(--quartz);
+    border-color: var(--slate);
     border-width: 1.5px;
     border-radius: 0.1em;
     height: 2.5em;
     border-style: solid;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Manrope', sans-serif; 
+    font-weight: 500;
+    word-spacing: 0.2em;
+    letter-spacing: 0.05em;
 }
 
 input {
     color: var(--black-pearl);
     opacity: 100%;
 }
+
+hr {
+    width: 99%;
+    border-color: var(--onxy);
+    opacity: 20%;
+    border-style: solid;
+    background-color: var(--onxy);
+    border-radius: 0.1px;
+    }
