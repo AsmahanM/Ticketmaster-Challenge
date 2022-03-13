@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/82c15dbd9d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Ticketmaster Challenge</title>
@@ -28,30 +29,28 @@
       
         <div class="form-mobile-input">
             <div class="mobile-label">
-            <label for="mobile">Mobile Number</label>
-            <p>Please include country code</p>
-            <input type="text, checkbox" name="mobile" id="user-mobile">
-             </div>
-
-             <div class="mobile-checkbox">
-                 <input type="checkbox">
+                <input type="checkbox" name="mobile" id="user-mobile">
+                <label for="mobile">Mobile Number</label>
+                <br>
+                <blockquote><p>Please include country code</p></blockquote>
+                <br>
+                <input type="text">
              </div>
         </div>
 
         <div class="form-email-input">
             <div class="email-label">
-            <label for="email">Email</label>
-            <input type="text" name="mobile" id="user-email">
-            </div>
-
-            <div class="email-checkbox">
                 <input type="checkbox">
+                <label for="email">Email</label>
+                <br>
+                <input type="text" name="mobile" id="user-email" placeholder="name@example.org">
             </div>
         </div>
+
     </div>
 
-    <div class="form-submit-btn">Confirm</div>
-
+    <div class="form-submit-btn"></div>
+    <button class="confirm-btn">Confirm</button>
 </div>
 
     <script src="index.js"></script>
